@@ -1,5 +1,5 @@
 // Base Class
-class {
+class Employee {
   constructor(name, department) {
     this.name = name;
     this.department = department;
@@ -15,7 +15,7 @@ class Manager extends Employee {
     this.teamSize = teamSize;
   }
   describe() {
-    return `Manager: ${this.name} | Department: ${this.department} | Team Size: ${teamSize}`
+    return `Manager: ${this.name} | Department: ${this.department} | Team Size: ${this.teamSize}`;
   }
 }
 // Company Class
@@ -46,4 +46,4 @@ myCompany.addEmployee(e2);
 myCompany.addEmployee(m1);
 
 console.log("~~~~ Company Directory ~~~~");
-myCompany.listEmployees()
+myCompany.listEmployees();
