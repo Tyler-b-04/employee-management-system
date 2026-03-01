@@ -19,3 +19,18 @@ class Manager extends Employee {
   }
 }
 // Company Class
+class Company {
+  constructor() {
+    this.employees = [];
+  }
+
+  addEmployee(employee) {
+    this.employees.push(employee);
+  }
+
+  listEmployees() {
+    for (const person of this.employees) {
+      console.log(person.describe());
+    }
+  }
+}
