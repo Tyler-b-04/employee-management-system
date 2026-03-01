@@ -1,4 +1,4 @@
-// Base classes
+// Base Class
 class {
   constructor(name, department) {
     this.name = name;
@@ -18,3 +18,4 @@ class Manager extends Employee {
     return `Manager: ${this.name} | Department: ${this.department} | Team Size: ${teamSize}`
   }
 }
+// Company Class
