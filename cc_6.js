@@ -45,5 +45,5 @@ myCompany.addEmployee(e1);
 myCompany.addEmployee(e2);
 myCompany.addEmployee(m1);
 
-console.log(~~~~ Company Directory ~~~~);
+console.log("~~~~ Company Directory ~~~~");
 myCompany.listEmployees()
