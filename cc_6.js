@@ -34,7 +34,16 @@ class Company {
     }
   }
 }
-// Objects
+// Sample Employees and Manager
 const e1 = new Employee("Devon", "Janitor");
 const e2 = new Employee("Justin", "IT");
 const m1 = new Manager("Tyler", "Operations", 3);
+
+// List Employees
+const myCompany = new Company();
+myCompany.addEmployee(e1);
+myCompany.addEmployee(e2);
+myCompany.addEmployee(m1);
+
+console.log(~~~~ Company Directory ~~~~);
+myCompany.listEmployees()
