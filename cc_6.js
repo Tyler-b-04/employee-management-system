@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Employee Management System</title>
+  </head>
+  <body>
+    <h1>Employee Overview</h1>
+    <script src="cc_6.js"></script>
+  </body>
+</html>
