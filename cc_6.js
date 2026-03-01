@@ -34,3 +34,7 @@ class Company {
     }
   }
 }
+// Objects
+const e1 = new Employee("Devon", "Janitor");
+const e2 = new Employee("Justin", "IT");
+const m1 = new Manager("Tyler", "Operations", 3);
